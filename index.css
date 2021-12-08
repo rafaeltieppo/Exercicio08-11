@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+    outline: none;
+}
+
+#title {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(160, 31, 31);
+}
+
+body {
+    background-color: rgb(200, 211, 199);
+}
+
+form {
+    padding: 30px;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+form select {
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+    height: 3vh;
+    background-color: rgba(255,255,255,.6);
+}
+
+#btn {
+    width: 6vw;
+    border: none;
+    border-radius: 3px;
+    height: 3vh;
+    margin-top: 5px;
+    background-color: rgba(255,255,255,.6);
+}
+
+#funcionario {
+    font-size: 1.1rem;
+    font-style: bold;
+    color: rgb(160, 31, 31);
+}
+
+#cesta, #func {
+    width: 10vw;
+}
+
+.entrega {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 30vw;
+    background-color: rgba(255,255,255,.6);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 0 0 0 0.5px black;
+}
